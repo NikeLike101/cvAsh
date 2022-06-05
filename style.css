@@ -1,0 +1,108 @@
+.general {
+    display: flex;
+    justify-content: center;
+}
+
+.right_vertical {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    padding-top: 2%;
+
+
+}
+
+.left_vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 190px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.photo {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-image: url("https://sun1.mts-by-minsk.userapi.com/s/v1/if2/BLMOfZWs83tRPtlMjRHjrMyZnDg4Mqn0UQLGT5Als0VFUTLIpiaHBxSusklrFDJrCppL1LkfZe8nCTXgyLkWL-YT.jpg?size=569x568&quality=95&type=album");
+    background-size: contain;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.company {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.position {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.date {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: gray;
+}
+
+.text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.email {
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    padding-left: 24%;
+}
+
+
+/*.name {*/
+/*    width: 32%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    !*background-color: red;*!*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-size: 24px;*/
+/*    padding-left: 3%;*/
+/*}*/
+/*.text{*/
+/*    width: 62%;*/
+/*    font-size: 24px;*/
+/*    padding-right: 3%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    !*background-color: yellow;*!*/
+/*    font-family: Inter, sans-serif;*/
+/*}*/
+/*.in-name{*/
+/*    writing-mode: vertical-lr;*/
+/*    text-orientation: upright;*/
+/*}*/
+/*.wrapper{*/
+/*    display: flex;*/
+/*}*/
+/*.title{*/
+/*    font-weight: bold;*/
+/*    padding-bottom: 10px;*/
+/*}*/
+/*p{*/
+/*    padding-bottom: 5px;*/
+/*}*/
